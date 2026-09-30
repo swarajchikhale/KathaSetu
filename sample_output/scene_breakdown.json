@@ -1,0 +1,171 @@
+{
+  "adaptation_metadata": {
+    "project_id": "proj_harvest_divide_majhi",
+    "screenplay_title": "The Harvest Divide",
+    "selected_culture": "Majhi (ਪੰਜਾਬ / ਮਾਝੀ)",
+    "region": "Majha Belt (Amritsar, Tarn Taran, Gurdaspur)",
+    "setting": "rural",
+    "writing_script": "latin_with_punjabi_transliteration",
+    "scenes_count": 4,
+    "characters_count": 4
+  },
+  "canonical_characters": [
+    {
+      "id": "CHAR_AMAR",
+      "canonical_name": "David / Amar Singh",
+      "adapted_name": "Amarjit 'Amar' Singh",
+      "aliases": ["David", "Amar", "The Elder Son", "A. Singh", "Prodigal Heir"],
+      "age": 34,
+      "role": "Elder Son / Returning Migrant",
+      "grooming": "Full beard neatly groomed with fikso, starch-pressed navy Pagri"
+    },
+    {
+      "id": "CHAR_ROHAN",
+      "canonical_name": "Rohan / Kabir Singh",
+      "adapted_name": "Rohanveer 'Rohan' Singh",
+      "aliases": ["Rohan", "The Younger Brother", "The Boy", "The Son"],
+      "age": 24,
+      "role": "Younger Brother / Soil Custodian",
+      "grooming": "Youthful round Patka turban tied firmly, grease-streaked work hands"
+    },
+    {
+      "id": "CHAR_BEBE",
+      "canonical_name": "Beatrice / Bebe",
+      "adapted_name": "Bebe Gurmeet Kaur",
+      "aliases": ["Beatrice", "Mother", "Bebe", "The Matriarch"],
+      "age": 62,
+      "role": "Matriarch / Moral Authority",
+      "grooming": "Ivory white cotton Salwar Kameez, hand-loomed Phulkari dupatta with mustard silk thread"
+    },
+    {
+      "id": "CHAR_GURDIP",
+      "canonical_name": "Gurdip / The Surveyor",
+      "adapted_name": "Patwari Gurdip Singh Sandhu",
+      "aliases": ["Gurdip", "The Surveyor", "The Assessor", "Revenue Officer", "Patwari"],
+      "age": 52,
+      "role": "Municipal Land Assessor / Revenue Patwari",
+      "grooming": "Safari suit, horn-rimmed glasses, pocket pen set"
+    }
+  ],
+  "canonical_costumes": [
+    {
+      "id": "COST_AMAR_01",
+      "character_id": "CHAR_AMAR",
+      "label": "Amar Travel Attire",
+      "scenes": ["SC01", "SC02"],
+      "garments": "Dark canvas jacket over dust-streaked Khaddar Kurta",
+      "fabrics": "Rough handspun Khaddar cotton",
+      "colors": "Indigo blue Kurta, charcoal canvas over-layer"
+    },
+    {
+      "id": "COST_AMAR_02",
+      "character_id": "CHAR_AMAR",
+      "label": "Amar Homestead Domestic Attire",
+      "scenes": ["SC03", "SC04"],
+      "garments": "Open-neck handloomed Kurta and loose Chadra/Pajama",
+      "fabrics": "Soft unbleached organic cotton",
+      "colors": "Off-white ivory with faint saffron selvedge"
+    },
+    {
+      "id": "COST_ROHAN_01",
+      "character_id": "CHAR_ROHAN",
+      "label": "Rohan Field Work Attire",
+      "scenes": ["SC01", "SC02", "SC03", "SC04"],
+      "garments": "Frayed sleeveless cotton vest/kurti, rolled-up work trousers",
+      "fabrics": "Coarse homespun desi cotton",
+      "colors": "Faded olive green and mud grey"
+    },
+    {
+      "id": "COST_BEBE_01",
+      "character_id": "CHAR_BEBE",
+      "label": "Bebe Matriarchal Garb",
+      "scenes": ["SC01", "SC03"],
+      "garments": "Full ankle-length Salwar-Kameez draped with Phulkari shawl",
+      "fabrics": "Hand-woven unbleached cotton base with pure silk embroidery",
+      "colors": "Pristine ivory kameez, mustard-gold Phulkari"
+    },
+    {
+      "id": "COST_GURDIP_01",
+      "character_id": "CHAR_GURDIP",
+      "label": "Surveyor Bureaucratic Uniform",
+      "scenes": ["SC02"],
+      "garments": "Terylene safari suit with epaulettes and fountain pens",
+      "fabrics": "Synthetic government blend",
+      "colors": "Khaki fawn"
+    }
+  ],
+  "scene_records": [
+    {
+      "scene_id": "SC01",
+      "scene_number": 1,
+      "slugline": "SCENE 1: INT. ANCESTRAL HOMESTEAD - LIVING HALL - EARLY MORNING",
+      "int_ext": "INT",
+      "location_id": "LOC_HOMESTEAD_BAITHAK",
+      "sub_location": "Living Hall / Baithak",
+      "time": "Early Morning (6:15 AM)",
+      "weather": "Crisp morning, golden dawn light",
+      "mood": "Strained, tense confrontation",
+      "short_summary": "Amar returns with the unsealed municipal partition envelope; challenged by Bebe and Rohan.",
+      "dramatic_purpose": "Establish central stakes of debt foreclosure versus ancestral soil pride.",
+      "characters": ["CHAR_AMAR", "CHAR_BEBE", "CHAR_ROHAN"],
+      "costume_ids": ["COST_AMAR_01", "COST_BEBE_01", "COST_ROHAN_01"],
+      "props_in": ["PROP_SEALED_DEED", "PROP_BRASS_CHEST_KEY"],
+      "props_out": ["PROP_SEALED_DEED"],
+      "emotional_change": "From awkward reunion silence to bitter family clash."
+    },
+    {
+      "scene_id": "SC02",
+      "scene_number": 2,
+      "slugline": "SCENE 2: EXT. FAMILY ORCHARD - CANAL TUBE-WELL - AFTERNOON",
+      "int_ext": "EXT",
+      "location_id": "LOC_CANAL_TUBEWELL",
+      "sub_location": "Canal Tube-Well Pump Head",
+      "time": "Midday Afternoon (1:30 PM)",
+      "weather": "Blistering dry heat",
+      "mood": "Hostile, aggressive clash over life-giving irrigation water",
+      "short_summary": "Amar brings the blueprint to surveyor Gurdip; Rohan arrives armed with a spanner.",
+      "dramatic_purpose": "Expose that partitioning the ditch severs water access for neighboring farms.",
+      "characters": ["CHAR_AMAR", "CHAR_GURDIP", "CHAR_ROHAN"],
+      "costume_ids": ["COST_AMAR_01", "COST_GURDIP_01", "COST_ROHAN_01"],
+      "props_in": ["PROP_SEALED_DEED", "PROP_MEASURING_CHAIN", "PROP_PIPE_SPANNER"],
+      "props_out": ["PROP_SEALED_DEED"],
+      "emotional_change": "From bureaucratic transaction to visceral physical confrontation."
+    },
+    {
+      "scene_id": "SC03",
+      "scene_number": 3,
+      "slugline": "SCENE 3: INT. HOMESTEAD COURTYARD AND KITCHEN - DUSK",
+      "int_ext": "INT/EXT",
+      "location_id": "LOC_HOMESTEAD_VEHRA",
+      "sub_location": "Courtyard & Veranda Hearth",
+      "time": "Dusk / Twilight (6:45 PM)",
+      "weather": "Cool purple twilight, crickets stirring",
+      "mood": "Intimate, sorrowful confession",
+      "short_summary": "Amar breaks down before Bebe, confessing the catastrophic bankruptcy of his city venture.",
+      "dramatic_purpose": "The emotional turning point: shifting Amar from avoidance to admission.",
+      "characters": ["CHAR_AMAR", "CHAR_BEBE", "CHAR_ROHAN"],
+      "costume_ids": ["COST_AMAR_02", "COST_BEBE_01", "COST_ROHAN_01"],
+      "props_in": ["PROP_SEALED_DEED"],
+      "props_out": [],
+      "emotional_change": "Amar moves from avoidance and false pride to raw confession and emotional redemption."
+    },
+    {
+      "scene_id": "SC04",
+      "scene_number": 4,
+      "slugline": "SCENE 4: EXT. ANCESTRAL BOUNDARY BANYAN TREE - NIGHT",
+      "int_ext": "EXT",
+      "location_id": "LOC_BOUNDARY_BANYAN",
+      "sub_location": "Century-Old Banyan Tree & Boundary Stone",
+      "time": "Night (10:15 PM)",
+      "weather": "Crisp moonlit night",
+      "mood": "Sacred reconciliation, fraternal solidarity",
+      "short_summary": "Amar meets Rohan at the ancient stone marker, discards the deed petition, and offers his own physical labor to pay the debt.",
+      "dramatic_purpose": "Resolution: brotherhood and soil integrity win over financial subdivision.",
+      "characters": ["CHAR_AMAR", "CHAR_ROHAN"],
+      "costume_ids": ["COST_AMAR_02", "COST_ROHAN_01"],
+      "props_in": ["PROP_BRASS_CHEST_KEY", "PROP_SEALED_DEED"],
+      "props_out": ["PROP_SEALED_DEED"],
+      "emotional_change": "From fraternal estrangement to fierce reconciliation and shared responsibility."
+    }
+  ]
+}

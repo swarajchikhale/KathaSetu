@@ -1,0 +1,7 @@
+{
+  "name": "KathaSetu: Cultural Screenplay & Visual Adaptation Studio",
+  "description": "Professional agentic studio for adapting screenplays into exact Indian cultures and dialects (Majhi, Malwai, Bangru, Marwari, Mewari, etc.) with structured entity normalization, continuity contradiction checking, and visual production packs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
